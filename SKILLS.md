@@ -45,6 +45,30 @@
 
 ---
 
+### 4. Self-Improving Agent Skill
+**描述：** 持续学习和改进系统  
+**功能：**
+- 捕获学习和错误
+- 自动改进工作流
+- 知识库管理
+
+**文件：**
+- SKILL.md - 完整文档（19.7 KB）
+- _meta.json - 元数据
+- scripts/ - 激活器和错误检测脚本
+- hooks/ - OpenClaw 集成钩子
+- references/ - 示例和集成指南
+- assets/ - 模板和学习文件
+- .learnings/ - 学习日志
+
+**特点：**
+- 自动记录错误和学习
+- 支持 OpenClaw 集成
+- 包含 Hook 系统
+- 提供完整的参考文档
+
+---
+
 ## 📊 统计信息
 
 | Skill | 大小 | 文件数 | 类型 |
@@ -52,6 +76,7 @@
 | Atlassian | 236 KB | 20+ | Python |
 | GitHub | - | 2 | CLI |
 | Agent Browser | - | 3 | Rust/Node |
+| Self-Improving Agent | - | 15+ | Shell/JS/TS |
 
 ---
 
@@ -96,6 +121,7 @@ export GH_TOKEN="your-github-token"
 - [Atlassian Skills](skills/atlassian-skills/SKILL.md)
 - [GitHub Skill](skills/github/SKILL.md)
 - [Agent Browser Skill](skills/agent-browser/SKILL.md)
+- [Self-Improving Agent Skill](skills/self-improving-agent/SKILL.md)
 
 ---
 

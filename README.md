@@ -46,6 +46,7 @@ my-daily-skills/
 - **Atlassian Skills** - Jira, Confluence, Bitbucket integration
 - **GitHub Skill** - GitHub CLI integration for issues, PRs, and CI
 - **Agent Browser** - Fast Rust-based browser automation
+- **Self-Improving Agent** - Continuous learning and improvement system
 
 See [SKILLS.md](SKILLS.md) for detailed information about each skill.
 
