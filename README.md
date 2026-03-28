@@ -45,8 +45,6 @@ my-daily-skills/
 
 - **Atlassian Skills** - Jira, Confluence, Bitbucket integration
 - **GitHub Skill** - GitHub CLI integration for issues, PRs, and CI
-- **Gmail Skill** - Gmail API integration for email management
-- **OpenAI Whisper** - Local speech-to-text without API key
 - **Agent Browser** - Fast Rust-based browser automation
 
 See [SKILLS.md](SKILLS.md) for detailed information about each skill.

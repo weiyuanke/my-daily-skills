@@ -1,6 +1,6 @@
 # 📚 Skills 清单
 
-## 已添加的 Skills
+## 已包含的 Skills
 
 ### 1. Atlassian Skills (236 KB)
 **描述：** Jira、Confluence、Bitbucket 集成  
@@ -31,34 +31,7 @@
 
 ---
 
-### 3. Gmail Skill
-**描述：** Gmail API 集成  
-**功能：**
-- 读取、发送、管理邮件
-- 线程和标签管理
-- 草稿管理
-
-**文件：**
-- SKILL.md - 完整文档
-- LICENSE.txt - 许可证
-- _meta.json - 元数据
-
----
-
-### 4. OpenAI Whisper Skill
-**描述：** 本地语音转文字  
-**功能：**
-- 无需 API Key 的本地 STT
-- 支持多种音频格式
-- 高精度转录
-
-**文件：**
-- SKILL.md - 完整文档
-- _meta.json - 元数据
-
----
-
-### 5. Agent Browser Skill
+### 3. Agent Browser Skill
 **描述：** 快速 Rust 浏览器自动化  
 **功能：**
 - 页面导航、点击、输入
@@ -78,8 +51,6 @@
 |-------|------|--------|------|
 | Atlassian | 236 KB | 20+ | Python |
 | GitHub | - | 2 | CLI |
-| Gmail | - | 3 | API |
-| Whisper | - | 2 | CLI |
 | Agent Browser | - | 3 | Rust/Node |
 
 ---
@@ -97,9 +68,6 @@ cp -r skills/* ~/.qclaw/workspace/skills/
 export JIRA_URL="https://your-instance.atlassian.net"
 export JIRA_USERNAME="your-email@example.com"
 export JIRA_API_TOKEN="your-api-token"
-
-# Gmail
-export GMAIL_CREDENTIALS="path/to/credentials.json"
 
 # GitHub
 export GH_TOKEN="your-github-token"
@@ -127,8 +95,6 @@ export GH_TOKEN="your-github-token"
 
 - [Atlassian Skills](skills/atlassian-skills/SKILL.md)
 - [GitHub Skill](skills/github/SKILL.md)
-- [Gmail Skill](skills/gmail/SKILL.md)
-- [Whisper Skill](skills/openai-whisper/SKILL.md)
 - [Agent Browser Skill](skills/agent-browser/SKILL.md)
 
 ---
