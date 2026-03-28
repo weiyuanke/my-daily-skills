@@ -47,6 +47,10 @@ my-daily-skills/
 - **GitHub Skill** - GitHub CLI integration for issues, PRs, and CI
 - **Agent Browser** - Fast Rust-based browser automation
 - **Self-Improving Agent** - Continuous learning and improvement system
+- **Find Skills** - Discover and install agent skills
+- **Ontology** - Typed knowledge graph for structured memory
+- **Self-Improving** - Self-reflection and proactive agent system
+- **Summarize** - Summarize URLs, files, and content
 
 See [SKILLS.md](SKILLS.md) for detailed information about each skill.
 
